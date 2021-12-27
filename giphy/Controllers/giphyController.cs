@@ -14,7 +14,7 @@ namespace giphy.Controllers
 
     [EnableCors(origins: "http://localhost:3000", headers: "*", methods: "*")]
   
-    public class giphyController : ApiController
+    public class GiphyController : ApiController
     {
         giphyBl giphyBl = new giphyBl();
 

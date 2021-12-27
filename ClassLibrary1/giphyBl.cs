@@ -26,12 +26,10 @@ namespace ClassLibrary1
             {
                 Query = search
             };
-
+         
             var gifResult = await giphy.GifSearch(searchParameter);
+          
             return gifResult.Data;
         }
-
-
-
     }
 }
