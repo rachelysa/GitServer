@@ -16,10 +16,10 @@ using PhoneNumber = PhoneNumbers.PhoneNumber;
 
 namespace ClassLibrary1
 {
-    public class giphyBl
+    public class GiphyBL
 
     {
-        public async Task<object> searchGif(string search)
+        public async Task<object> SearchGif(string search)
         {
             var giphy = new Giphy("Nkq0WXG5eGKlDsSJ6bio5NVhnwP5FL8O");
             var searchParameter = new SearchParameter()

@@ -16,12 +16,12 @@ namespace giphy.Controllers
   
     public class GiphyController : ApiController
     {
-        giphyBl giphyBl = new giphyBl();
+        GiphyBL giphyBl = new GiphyBL();
 
         // GET: api/Default/5
         public async Task<object> Get(string id)
         {
-            var gifs = await giphyBl.searchGif(id);
+            var gifs = await giphyBl.SearchGif(id);
 
             return gifs;
         }
